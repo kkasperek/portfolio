@@ -1,0 +1,75 @@
+/*** General ***/
+body {
+  height: 100%;
+  background-color: #aaa;
+  background-image: url("../assets/images/grey-light.jpg"); 
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* containers */
+.gen-row {
+    margin: 10px 0;
+    background-color: #fff;
+}
+.gen-box {
+  position: relative;
+  top: 10vw;
+  padding: 10px;
+  border: 1px solid #aaa;    
+  background-color: rgba(255,255,255,0.5);
+}
+
+/*** NavBar ***/
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*** Header ***/
+.megatron {
+  margin: 0 !important;
+  display: block;
+  position: relative;
+  height: 400px;
+}
+/*** Footer ***/
+.page-footer {
+  height: 80px;
+}
+
+/*** Portfolio ***/
+/* filters */
+.filter-title,
+.filter-list {
+  display: inline-flex;
+  padding: 0 20px;
+  float: right;
+	text-align: right;
+	vertical-align: baseline;
+}
+.filter-label,
+.filter-label:not(:first-child)::before {
+	color: #dcd5b2;
+}
+.filter-label {
+	display: inline-block;
+	position: relative;
+	margin-left: .8em;
+	cursor: pointer;
+}
+.filter-label.is-active {
+	color: inherit;
+}
+.filter-label:not(:first-child)::before {
+	content: "/";
+	margin-right: .8em;
+}
