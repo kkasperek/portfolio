@@ -44,6 +44,7 @@ nav {
 }
 /*** Footer ***/
 .page-footer {
+  background-color: #444;
   height: 80px;
 }
 
@@ -77,4 +78,11 @@ nav {
 
 .scale-anm {
   transform: scale(1);
+}
+
+/* Image Thumbnail */
+.imgThumbnail {
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 5px; 
 }
