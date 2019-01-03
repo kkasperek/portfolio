@@ -22,7 +22,7 @@ $(document).ready(function() {
   $("#main-nav li a").click(function(event) {
     event.preventDefault();
     var targetHref = $(this).attr("href");
-
+    
     $("html, body").animate(
       {
         scrollTop: $(targetHref).offset().top - headerHeight
