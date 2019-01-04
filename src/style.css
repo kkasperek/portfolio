@@ -8,6 +8,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif !important;
+  text-transform: uppercase;
+}
 /* containers */
 .gen-row {
     margin: 10px 0;
@@ -46,6 +50,10 @@ nav {
   min-height: 510px;
   position: relative;
   width: 100%;
+}
+.top-subtitle {
+  font-size: 25px;
+
 }
 /*** Footer ***/
 .page-footer {
