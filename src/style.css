@@ -20,7 +20,6 @@ h6 {
 
 /* containers */
 .gen-row {
-  padding: 2em 0;
   background-color: #fff;
 }
 .gen-box {
@@ -32,13 +31,15 @@ h6 {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
-/* .skill-box {
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #aaa;
-} */
 .skill-box ul li {
   padding-bottom: 0.4em;
+}
+section .container {
+  padding: 4em 0;
+}
+/* icons */
+i {
+  color: #343434;
 }
 
 /*** NavBar ***/
@@ -87,13 +88,15 @@ i.fa-lg:hover {
 
 /*** Portfolio ***/
 /* filters */
-.filter-title,
 .filter-list {
   display: inline-flex;
   padding: 0 20px;
   float: right;
   text-align: right;
   vertical-align: baseline;
+}
+.filter-icon {
+  margin-left: 0.8em;
 }
 .filter-label,
 .filter-label:not(:first-child)::before {
@@ -126,5 +129,5 @@ i.fa-lg:hover {
 /* CONTACT */
 #contact {
   padding-top: 2em;
-  min-height: 200px;
+  min-height: 300px;
 }
