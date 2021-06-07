@@ -2,47 +2,59 @@
 body {
   height: 100%;
   background-color: #aaa;
-  background-image: url("../src/images/grey-light.jpg"); 
+  background-image: url('../src/images/grey-light.jpg');
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase;
 }
+
 /* containers */
 .gen-row {
-    margin: 10px 0;
-    background-color: #fff;
+  margin: 10px 0;
+  background-color: #fff;
 }
 .gen-box {
   position: relative;
   top: 10vw;
   padding: 10px;
-  border: 1px solid #aaa;    
-  background-color: rgba(255,255,255,0.5);
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  border: 1px solid #aaa;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 /* .skill-box {
   margin: 10px;
   padding: 10px;
   border: 1px solid #aaa;
 } */
+.skill-box ul li {
+  padding-bottom: 0.4em;
+}
 
 /*** NavBar ***/
 nav {
   background-color: transparent;
   box-shadow: none;
 }
+nav#navbar {
+  position: absolute;
+}
 .sticky {
   position: fixed !important;
   top: 0;
   width: 100%;
   z-index: 5;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /*** Header ***/
@@ -50,7 +62,7 @@ nav {
   margin: 0 !important;
   display: block;
   position: relative;
-  background-image: url("./images/note-pad-1215423_1920\ \(1\).jpg");
+  background-image: url('./images/note-pad-1215423_1920\ \(1\).jpg');
   background-attachment: fixed;
   background-size: cover;
   min-height: 500px !important;
@@ -74,25 +86,25 @@ nav {
   display: inline-flex;
   padding: 0 20px;
   float: right;
-	text-align: right;
-	vertical-align: baseline;
+  text-align: right;
+  vertical-align: baseline;
 }
 .filter-label,
 .filter-label:not(:first-child)::before {
-	color: #dcd5b2;
+  color: #dcd5b2;
 }
 .filter-label {
-	display: inline-block;
-	position: relative;
-	margin-left: .8em;
-	cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-left: 0.8em;
+  cursor: pointer;
 }
 .filter-label.is-active {
-	color: inherit;
+  color: inherit;
 }
 .filter-label:not(:first-child)::before {
-	content: "/";
-	margin-right: .8em;
+  content: '/';
+  margin-right: 0.8em;
 }
 
 .scale-anm {
@@ -101,9 +113,9 @@ nav {
 
 /* Image Thumbnail */
 .imgThumbnail {
-  border: 1px solid #ddd; 
-  border-radius: 4px; 
-  padding: 5px; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
 }
 /* CONTACT */
 #contact {
