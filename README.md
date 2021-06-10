@@ -1,4 +1,5 @@
 # My Portfolio 
 
-**Showcases projects, personal, and through UMN Coding Bootcamp
-https://kkasperek.github.io/project-portfolio/
+Showcases projects, personal, and through UMN Coding Bootcamp
+
+> [Click here to view](http://ktkasperek.me/portfolio/)
